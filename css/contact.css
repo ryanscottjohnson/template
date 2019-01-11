@@ -1,0 +1,39 @@
+
+.contact {
+  background-color: #ffffff;
+  text-align: center;
+  color: #696969;
+  padding: 200px 0;
+}
+.contact a {
+  color: #878787;
+  font-size: 42px;
+}
+.contact a:hover {
+  color: #dbbaaf;
+}
+.contact h3 {
+  font-weight: 200;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  box-sizing: border-box;
+  /* clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 90%); */
+}
+.icons-inner {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.footnote {
+  margin: 25px;
+}
+.footnote p, .footnote a {
+  font-size: 12px;
+  line-height: 16px;
+  color: #bababa;
+}

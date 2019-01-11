@@ -1,0 +1,136 @@
+@import "normalize.css";
+@import "main.css";
+@import "header.css";
+@import "work.css";
+@import "community.css";
+@import "contact.css";
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  .name, nav {
+    width: 100%;
+    text-align: center;
+    max-width: 200px;
+    margin: auto;
+  }
+  nav {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .intro {
+    height: 300px;
+    background-position: right 0%;
+  }
+  .intro h2 {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  .hello {
+    margin-top: 0px;
+  }
+  .title, .title h3, .title h4 {
+    animation: none;
+    opacity: 1;
+  }
+  .title {
+    padding: 150px 30px 100px 30px;
+  }
+  .text {
+    padding: 15px;
+  }
+  .text div {
+    padding: 25px;
+  }
+  .triangle {
+    border-left: 100px solid rgba(219,186,175,.9);
+    border-top: 75px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 75px solid transparent;
+    margin-top: -160px;
+  }
+  h2 {
+    font-size: 50px;
+    margin: 20px 20px -25px;
+  }
+  .work h3 {
+    font-size: 24px;
+    margin: 0px;
+  }
+  .work h4 {
+    margin: 0px;
+  }
+  .about {
+    box-sizing: border-box;
+    padding: 25px 0;
+  }
+  .about img {
+    padding-bottom: 25px;
+  }
+  .about-inner {
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: auto;
+    max-width: 450px;
+  }
+  .about figure {
+    width: 100%;
+    margin: 0;
+  }
+  .about-text {
+    width: 100%;
+    padding: 0;
+  }
+  .buttons {
+    padding: 25px;
+  }
+  .doa, .opc, .pc {
+    margin: 10px 0;
+  }
+  .doa:hover, .pc:hover, .opc:hover {
+    transform: none;
+    cursor: pointer;
+}
+  .doa-inner, .pc-inner, .opc-inner {
+    padding: 25px;
+  }
+  .work-index {
+    flex-direction: column;
+    margin: auto;
+    max-width: 450px;
+  }
+  .work, .writing, .about, {
+    min-height: 50vh;
+    box-sizing: border-box;
+  }
+  .work, .community {
+    margin-top: 50px;
+  }
+  .cf-side {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .right {
+    text-align: left;
+  }
+  .text, .pics {
+    width: 100%;
+  }
+  .role {
+    flex-direction: column;
+  }
+}
+
+/* Gray: #ded6d1
+Light pink: #dbbaaf
+Rich pink: #cd7d67
+Dark pink: #a5796f
+Gray: #7c7c7c
+Black: #545454
+Gold: #e8b37f */
